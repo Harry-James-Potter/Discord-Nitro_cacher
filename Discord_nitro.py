@@ -35,9 +35,9 @@ while not i == 1:
                 print(f"Nitro link is: {Nitro}")
                 break
             continue
+        clik()
     except WindowsError:
         continue
-    clik()
 
 #  ALARM / ANY MUSIC AFTER THE RIGHT NITRO IS CREATED
 playsound("")
