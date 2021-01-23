@@ -1,4 +1,4 @@
-#  IMPORTING MOSDLES
+#  IMPORTING MODULES
 import random, string, time, webbrowser, pyautogui
 from pynput import keyboard
 from playsound import playsound
@@ -19,6 +19,7 @@ def clik():
     keyboardd.release(keyboard.Key.ctrl)
     keyboardd.release("w")
 
+webbrowser.open("https://www.google.com")
 while not i == 1:
     no_of_links += 1
     Nitro = NitroCode()
