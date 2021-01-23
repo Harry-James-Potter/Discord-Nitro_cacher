@@ -2,8 +2,7 @@ import random, string, time, webbrowser, pyautogui
 from pynput import keyboard
 from playsound import playsound
 keyboardd = keyboard.Controller()
-no_of_links = 0
-i = 0
+no_of_links, i = 0, 0
 while not i == 1:
     def NitroCode():
         code = ''.join(random.choices(string.ascii_letters + string.digits, k=16))
