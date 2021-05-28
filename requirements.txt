@@ -1,5 +1,4 @@
 clipboard~=0.0.4
 pynput~=1.7.2
-pygame~=2.0.1
 PyAutoGUI~=0.9.52
 playsound~=1.2.2
